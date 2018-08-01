@@ -1,0 +1,35 @@
+.groupe--international--section {
+    margin: 60px;
+    .groupe--international--info {
+        margin: 50px;
+        .groupe--international--title {
+            font-size: 30px;
+            width: 50%;
+            float: right;
+            margin-bottom: 200px;
+            &::after {
+                content: "";
+                width: 30px;
+                background-color: #000;
+                height: 5px;
+                float: right;
+                margin-top: 20px;
+                margin-right: 780px;
+            }
+        }
+        .groupe--international--content {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px;
+            width: 50%;
+            float: left;
+        }
+    }
+    .groupe--int--image--taekwondo {
+        margin-bottom: -620px;
+        margin-left: 620px;
+    }
+    .groupe--int--image--swim {
+        float: right;
+        margin-right: 250px;
+    }
+}

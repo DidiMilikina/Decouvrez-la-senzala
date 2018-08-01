@@ -1,0 +1,45 @@
+.grupo--senzala--section {
+    margin: 100px;
+    .swimmers--images {
+        margin-top: -200px;
+        position: absolute;
+        .first--images {
+            max-width: 15%;
+            float: right;
+        }
+    }
+    .grupo--senzala--info {
+        margin-top: 100px;
+        margin-bottom: 200px;
+        .grupo--senzala--title {
+            word-spacing: 1px;
+            line-height: 30px;
+            font-size: 30px;
+            width: 40%;
+            float: left;
+            &:after {
+                content: "";
+                width: 30px;
+                background-color: #000;
+                height: 5px;
+                float: right;
+                margin-top: 20px;
+                margin-right: 510px;
+            }
+        }
+        .grupo--senzala--content {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px;
+            width: 40%;
+            float: right;
+        }
+    }
+    .decouverir--link {
+        float: right;
+        margin-top: 230px;
+        position: absolute;
+        text-decoration: none;
+        color: #2626b6;
+        margin-left: 330px;
+    }
+}

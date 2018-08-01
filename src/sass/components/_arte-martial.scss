@@ -1,0 +1,44 @@
+.un--arte--martial--section {
+    margin-top: 600px;
+    .fortchristmas--image {
+        margin-left: 100px;
+        max-width: 40%;
+        height: 100%;
+    }
+    .diving--image {
+        width: 30%;
+        display: flex;
+        margin-top: -100px;
+        margin-left: 650px;
+    }
+    .article--info {
+        max-width: 50%;
+        float: left;
+        margin-left: 900px;
+        margin-top: -650px;
+        margin-right: 50px;
+        .arte--title {
+            word-spacing: 1px;
+            line-height: 30px;
+            font-size: 30px;
+            &:after {
+                content: "";
+                width: 30px;
+                background-color: #000;
+                height: 5px;
+                float: right;
+                margin-top: 15px;
+                margin-right: 890px;
+            }
+        }
+        .arte--content {
+            font-family: 'Montserrat', sans-serif;
+            width: 80%;
+            font-size: 18px;
+        }
+        .arte--martial--link {
+            text-decoration: none;
+            color: rgb(38, 38, 182);
+        }
+    }
+}
